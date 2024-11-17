@@ -23,6 +23,7 @@
 
 ## Descrição
 
+**Galleria** é uma plataforma de fotos em desenvolvimento, construída com **React**, **JavaScript**, e **Node.js** para criar uma interface interativa e eficiente. Utiliza **CSS3** para design e **Firebase** para autenticação e armazenamento em tempo real. O projeto visa oferecer uma experiência intuitiva e segura para armazenamento e compartilhamento de fotos.
 
 ## Requisitos
 
