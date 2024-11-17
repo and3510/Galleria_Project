@@ -30,6 +30,12 @@
 
 ## Ferramentas
 
+- **React**: Biblioteca JavaScript para criar interfaces dinâmicas e reutilizáveis, facilitando o desenvolvimento de aplicações interativas.
+- **JavaScript**: Linguagem de programação usada para implementar a lógica da aplicação e interatividade entre os componentes.
+- **Node.js**: Ambiente de execução JavaScript no servidor, responsável pela gestão do backend e comunicação com o banco de dados.
+- **CSS3**: Folha de estilo usada para criar layouts modernos e responsivos, garantindo uma boa experiência visual em diferentes dispositivos.
+- **Firebase**: Plataforma do Google que fornece autenticação e armazenamento em tempo real, facilitando o gerenciamento de usuários e fotos.
+
 
 
 ## Dificuldades
