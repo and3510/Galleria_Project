@@ -1,0 +1,25 @@
+.conteiner-erro {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #181717;
+}
+
+
+.conteiner-erro h1{
+    font-size: 120px;
+    color: #fff;
+
+}
+
+.conteiner-erro a {
+    text-decoration: none;
+    background-color: #8d9196;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
