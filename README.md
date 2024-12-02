@@ -27,12 +27,12 @@
 
 ## Requisitos
 
-- [] Pagina Principal dos principais fotos do site
-- [] Pagina sobre o fotografo
-- [] Pagina de contato por mensagem de email
-- [] Pagina de serviços oferecidos pelo fotografo
-- [] Sistema de cadastro e login com a autenticação do Auth do firebase
-- [] Pagina de cada tipo de foto selecionada.
+- [ ] Pagina Principal dos principais fotos do site
+- [ ] Pagina sobre o fotografo
+- [ ] Pagina de contato por mensagem de email
+- [ ] Pagina de serviços oferecidos pelo fotografo
+- [ ] Sistema de cadastro e login com a autenticação do Auth do firebase
+- [ ] Pagina de cada tipo de foto selecionada.
 
 ## Ferramentas
 
