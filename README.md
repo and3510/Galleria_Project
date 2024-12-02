@@ -33,6 +33,7 @@
 - [ ] Pagina de serviços oferecidos pelo fotografo
 - [ ] Sistema de cadastro e login com a autenticação do Auth do firebase
 - [ ] Pagina de cada tipo de foto selecionada.
+- [ ] Uso de notificaçoes de açoes no site.
 
 ## Ferramentas
 
@@ -49,5 +50,20 @@
 
 ## Resultados
 
+<div align="center" >
+
+<img width="500px" src="./images/image.png"  alt="GitHub Readme Stats" />
+<p>Pagina Principal do Site</p>
+
+
+<img width="500px" src="./images/image copy.png"  alt="GitHub Readme Stats" />
+<p>Pagina Sobre o fotografo</p>
+
+<img width="500px" src="./images/image copy 2.png"  alt="GitHub Readme Stats" />
+<p>Pagina de Contato com o fotografo</p>
+
+
+
+</div>
 
 ## Conclusão
