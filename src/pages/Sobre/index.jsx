@@ -1,10 +1,65 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
+import { db, auth } from '../../firebaseConnection'
+import { useNavigate } from 'react-router-dom';
+import minhaImagem from "../../assets/personal.png";
 import "./styles.css"
-
+import {
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged
+} from 'firebase/auth'
 
 export default function Sobre() {
+    const [user, setUser] = useState(false);
+    const [userDetail, setUserDetail] = useState({})
+    const navigate = useNavigate();
+  
+  
+      useEffect(() => {
+          async function checkLogin() {
+              onAuthStateChanged(auth, (user) => {
+                  if (user) {
+                      console.log(user)
+                      setUser(true)
+                      setUserDetail({
+                          uid: user.uid,
+                          email: user.email
+                      })
+  
+  
+                  }
+                  else {
+                      setUser(false)
+                      setUserDetail({})
+                      navigate('/')
+                  }
+              })
+          }
+  
+          checkLogin();
+      }, [])
+      
 return (
-    <h1>Sobre</h1>
+    <div class="container">
+        <div class="about">
+            <h2>Sobre o Fotógrafo</h2>
+            <p>João Silva é um fotógrafo renomado, especializado em fotografia de retratos e paisagens. Com mais de 10 anos de experiência, sua paixão é capturar momentos que contam histórias.</p>
+        </div>
+        <div class="profile-img">
+            <img src={minhaImagem} alt="" />
+        </div>
+        <div class="qualities">
+            <h2>Qualidades</h2>
+                <ul>
+                    <li>Criativo</li>
+                    <li>Detalhista</li>
+                    <li>Experiente em diferentes estilos de fotografia</li>
+                    <li>Profissional e pontual</li>
+                    <li>Tecnologia de ponta</li>
+                </ul>
+            </div>
+    </div>
 )
 
 

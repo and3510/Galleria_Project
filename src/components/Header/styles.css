@@ -60,7 +60,7 @@
   
 
   .header-navbar-login-singup a {
-    color: #11bfeb;
+    color: #eb1111;
   }
 
   .header-navbar-login-singup ul {
@@ -74,7 +74,7 @@
     margin-right: 20px;
     transition: 0.6s;
     border-radius: 15px;
-    padding: 7px 10px;
+    padding: 10px 12px;
     box-shadow: 1px 2px 3px  rgb(78, 78, 78);
 
 
@@ -82,7 +82,7 @@
 
   .header-navbar-login-singup li:hover {
     background-color: #FFF;
-    padding: 7px 12px;
+    padding: 10px 17px;
     border-radius: 15px;
   }
 

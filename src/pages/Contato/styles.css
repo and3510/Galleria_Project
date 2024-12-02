@@ -1,0 +1,99 @@
+.container {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+max-width: 1200px;
+background: rgba(0, 0, 0, 0.8);
+min-height: 475px;
+}
+  
+.contact-info {
+flex: 1;
+max-width: 400px;
+padding: 20px;
+}
+
+.contact-info h2 {
+font-size: 1.8rem;
+color: #f5ba31;
+border-bottom: 2px solid #f5ba31;
+display: inline-block;
+margin-bottom: 15px;
+}
+
+.contact-info ul {
+list-style: none;
+padding: 0;
+}
+
+.contact-info li {
+margin-bottom: 10px;
+background: rgba(255, 255, 255, 0.1);
+padding: 10px;
+border-radius: 5px;
+}
+
+.contact-form {
+flex: 1;
+max-width: 400px;
+padding: 20px;
+margin-top: 165px;
+}
+
+.contact-form h2 {
+font-size: 1.8rem;
+color: #f5ba31;
+border-bottom: 2px solid #f5ba31;
+display: inline-block;
+margin-bottom: 15px;
+}
+
+.contact-form label {
+display: block;
+margin-top: 15px;
+font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border-radius: 5px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: #fff;
+font-size: 1rem;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+color: #aaa;
+}
+
+.contact-form button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background: #f5ba31;
+color: #000;
+font-size: 1rem;
+cursor: pointer;
+transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+background: #ffcc4d;
+transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+.container {
+    flex-direction: column;
+}
+.contact-info, .contact-form {
+    max-width: 100%;
+}
+}

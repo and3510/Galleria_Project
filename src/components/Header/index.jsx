@@ -1,16 +1,65 @@
-import React from "react";
-import { Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'; // Importe os ícones do react-icons
-import './styles.css';
+import React, { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
+import { db, auth } from '../../firebaseConnection'
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
+import "./styles.css"
+import {
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged
+} from 'firebase/auth'
 
 export default function Header() {
+
+  const [user, setUser] = useState(false);
+  const [userDetail, setUserDetail] = useState({})
+  const navigate = useNavigate();
+
+
+    useEffect(() => {
+        async function checkLogin() {
+            onAuthStateChanged(auth, (user) => {
+                if (user) {
+                    console.log(user)
+                    setUser(true)
+                    setUserDetail({
+                        uid: user.uid,
+                        email: user.email
+                    })
+
+
+                }
+                else {
+                    setUser(false)
+                    setUserDetail({})
+                    navigate('/')
+                }
+            })
+        }
+
+        checkLogin();
+    }, [])
+
+    async function logout() {
+      await signOut(auth)
+      setUser(false)
+      setUserDetail({})
+      toast.success("LogOut com sucesso", {
+        theme: "dark"
+      })
+
+      
+    }
+
   return (
     <header className="header">
       <Link to="/" className="header-brand">Galleria</Link>
       <nav className="header-navbar">
         <ul>
           <li>
-            <Link to="/" className="active">Home</Link>
+            <Link to="/home" className="active">Home</Link>
           </li>
           <li>
             <Link to="/servicos">Serviços</Link>
@@ -50,16 +99,18 @@ export default function Header() {
         </ul>
       </div>
 
-      <nav className="header-navbar-login-singup">
-          <ul>
-              <li>
-                <Link to="/login" className="active">Login</Link>
-              </li>
-              <li>
-                <Link to="/signup">SignUp</Link>
-              </li>
-          </ul>
-      </nav>
+
+        {user && (
+
+            <nav className="header-navbar-login-singup">
+            <ul>
+                <li>
+                  <Link onClick={logout} className="active">Logout</Link>
+                </li>
+            </ul>
+            </nav>
+        )}
+
 
     </header>
   );

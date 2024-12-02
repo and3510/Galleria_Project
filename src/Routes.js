@@ -19,12 +19,12 @@ export default function AppRoutes() {
     <Header/>
       <Routes>
         <Route path="/fotos/:id" element={<Fotos />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/servicos" element={<Servicos />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
 
 
 
