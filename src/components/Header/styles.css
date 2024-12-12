@@ -1,4 +1,4 @@
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     max-width: 1170px;
@@ -85,4 +85,137 @@
     padding: 10px 17px;
     border-radius: 15px;
   }
+ */
 
+
+ /* Global Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  padding: 1.5rem 1rem;
+  margin: 0 auto;
+  background-color: #000;
+  border-bottom: 2px solid #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 425px) {
+  .header {
+      padding: 1rem;
+  }
+}
+
+/* Brand Styling */
+.header-brand {
+  color: #FFF;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Navbar Styling */
+.header-navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-navbar ul li {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #FFF;
+  transition: color 0.3s ease;
+}
+
+.header-navbar ul li .active {
+  color: #20C997;
+}
+
+.header-navbar ul li a:hover {
+  color: #20C997;
+  text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+  .header-navbar ul {
+      display: none;
+  }
+}
+
+/* Social Media Styling */
+.header-social-media ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-social-media ul li {
+  margin: 0 0.5rem;
+}
+
+.header-social-media ul li a {
+  color: #FFF;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.header-social-media ul li a:hover {
+  color: #20C997;
+}
+
+@media (max-width: 425px) {
+  .header-social-media ul {
+      display: none;
+  }
+}
+
+/* Login/Signup Styling */
+.header-navbar-login-singup ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-navbar-login-singup li {
+  margin-right: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #eb1111;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-navbar-login-singup li:hover {
+  background-color: #FFF;
+  color: #eb1111;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-navbar-login-singup a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 425px) {
+  .header-navbar-login-singup li {
+      display: none;
+  }
+}

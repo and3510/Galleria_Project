@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/09/Sarosh-Lodhi-Wait-Which-Zebra-Is-In-Front.webp?w=880",
+    "description": "Elefante na savana",
+    "category": "animais"
+  },
+  {
+    "id": 2,
+    "url": "https://via.placeholder.com/300/FFCC11",
+    "description": "Leão descansando",
+    "category": "animais"
+  },
+  {
+    "id": 3,
+    "url": "https://via.placeholder.com/300/FFCC22",
+    "description": "Ave tropical colorida",
+    "category": "animais"
+  },
+  {
+    "id": 4,
+    "url": "https://via.placeholder.com/300/FFCC33",
+    "description": "Cervo na floresta",
+    "category": "animais"
+  },
+  {
+    "id": 5,
+    "url": "https://via.placeholder.com/300/FFCC44",
+    "description": "Peixe em coral",
+    "category": "animais"
+  },
+  {
+    "id": 6,
+    "url": "https://via.placeholder.com/300/0099FF",
+    "description": "Prédio moderno refletindo o céu",
+    "category": "arquitetura"
+  },
+  {
+    "id": 7,
+    "url": "https://via.placeholder.com/300/0099EE",
+    "description": "Estrutura de vidro futurista",
+    "category": "arquitetura"
+  },
+  {
+    "id": 8,
+    "url": "https://via.placeholder.com/300/0099DD",
+    "description": "Ponte icônica em uma cidade",
+    "category": "arquitetura"
+  },
+  {
+    "id": 9,
+    "url": "https://via.placeholder.com/300/0099CC",
+    "description": "Antiga catedral histórica",
+    "category": "arquitetura"
+  },
+  {
+    "id": 10,
+    "url": "https://via.placeholder.com/300/0099BB",
+    "description": "Arranha-céu iluminado à noite",
+    "category": "arquitetura"
+  },
+  {
+    "id": 11,
+    "url": "https://via.placeholder.com/300/FF6600",
+    "description": "Rua movimentada em Nova York",
+    "category": "cidades"
+  },
+  {
+    "id": 12,
+    "url": "https://via.placeholder.com/300/FF6611",
+    "description": "Vista aérea de São Paulo",
+    "category": "cidades"
+  },
+  {
+    "id": 13,
+    "url": "https://via.placeholder.com/300/FF6622",
+    "description": "Praça central em Paris",
+    "category": "cidades"
+  },
+  {
+    "id": 14,
+    "url": "https://via.placeholder.com/300/FF6633",
+    "description": "Cidade costeira com barcos",
+    "category": "cidades"
+  },
+  {
+    "id": 15,
+    "url": "https://via.placeholder.com/300/FF6644",
+    "description": "Mercado noturno na Ásia",
+    "category": "cidades"
+  },
+  {
+    "id": 16,
+    "url": "https://via.placeholder.com/300/66CC99",
+    "description": "Sala com móveis escandinavos",
+    "category": "decoracoes"
+  },
+  {
+    "id": 17,
+    "url": "https://via.placeholder.com/300/66CC88",
+    "description": "Cozinha com estilo rústico",
+    "category": "decoracoes"
+  },
+  {
+    "id": 18,
+    "url": "https://via.placeholder.com/300/66CC77",
+    "description": "Escritório moderno e iluminado",
+    "category": "decoracoes"
+  },
+  {
+    "id": 19,
+    "url": "https://via.placeholder.com/300/66CC66",
+    "description": "Quarto com tons pastéis",
+    "category": "decoracoes"
+  },
+  {
+    "id": 20,
+    "url": "https://via.placeholder.com/300/66CC55",
+    "description": "Varanda decorada com plantas",
+    "category": "decoracoes"
+  },
+  {
+    "id": 21,
+    "url": "https://via.placeholder.com/300/CC3333",
+    "description": "Jogador de basquete arremessando",
+    "category": "esportes"
+  },
+  {
+    "id": 22,
+    "url": "https://via.placeholder.com/300/CC3344",
+    "description": "Corredor cruzando a linha de chegada",
+    "category": "esportes"
+  },
+  {
+    "id": 23,
+    "url": "https://via.placeholder.com/300/CC3355",
+    "description": "Surfista pegando uma onda",
+    "category": "esportes"
+  },
+  {
+    "id": 24,
+    "url": "https://via.placeholder.com/300/CC3366",
+    "description": "Jogador de futebol fazendo gol",
+    "category": "esportes"
+  },
+  {
+    "id": 25,
+    "url": "https://via.placeholder.com/300/CC3377",
+    "description": "Ciclistas em uma trilha",
+    "category": "esportes"
+  },
+  {
+    "id": 26,
+    "url": "https://via.placeholder.com/300/33CC66",
+    "description": "Cachoeira cercada por vegetação",
+    "category": "natureza"
+  },
+  {
+    "id": 27,
+    "url": "https://via.placeholder.com/300/33CC77",
+    "description": "Lago cristalino ao pôr do sol",
+    "category": "natureza"
+  },
+  {
+    "id": 28,
+    "url": "https://via.placeholder.com/300/33CC88",
+    "description": "Floresta densa e verdejante",
+    "category": "natureza"
+  },
+  {
+    "id": 29,
+    "url": "https://via.placeholder.com/300/33CC99",
+    "description": "Montanhas cobertas de neve",
+    "category": "natureza"
+  },
+  {
+    "id": 30,
+    "url": "https://via.placeholder.com/300/33CCAA",
+    "description": "Praia deserta com águas claras",
+    "category": "natureza"
+  },
+  {
+    "id": 31,
+    "url": "https://via.placeholder.com/300/9933FF",
+    "description": "Trilhos em meio a árvores",
+    "category": "paisagem"
+  },
+  {
+    "id": 32,
+    "url": "https://via.placeholder.com/300/9933EE",
+    "description": "Campo de flores ao entardecer",
+    "category": "paisagem"
+  },
+  {
+    "id": 33,
+    "url": "https://via.placeholder.com/300/9933DD",
+    "description": "Caminho em uma floresta nevoada",
+    "category": "paisagem"
+  },
+  {
+    "id": 34,
+    "url": "https://via.placeholder.com/300/9933CC",
+    "description": "Lago rodeado por montanhas",
+    "category": "paisagem"
+  },
+  {
+    "id": 35,
+    "url": "https://via.placeholder.com/300/9933BB",
+    "description": "Pôr do sol em um deserto",
+    "category": "paisagem"
+  },
+  {
+    "id": 36,
+    "url": "https://via.placeholder.com/300/996633",
+    "description": "Retrato de uma mulher sorrindo",
+    "category": "pessoas"
+  },
+  {
+    "id": 37,
+    "url": "https://via.placeholder.com/300/996644",
+    "description": "Crianças brincando em um parque",
+    "category": "pessoas"
+  },
+  {
+    "id": 38,
+    "url": "https://via.placeholder.com/300/996655",
+    "description": "Homem trabalhando em um laptop",
+    "category": "pessoas"
+  },
+  {
+    "id": 39,
+    "url": "https://via.placeholder.com/300/996666",
+    "description": "Grupo de amigos em uma festa",
+    "category": "pessoas"
+  },
+  {
+    "id": 40,
+    "url": "https://via.placeholder.com/300/996677",
+    "description": "Idoso lendo um livro",
+    "category": "pessoas"
+  },
+  {
+    "id": 41,
+    "url": "https://via.placeholder.com/300/FF9999",
+    "description": "Café da manhã com frutas",
+    "category": "refeicoes"
+  },
+  {
+    "id": 42,
+    "url": "https://via.placeholder.com/300/FF9988",
+    "description": "Pizza recém-assada",
+    "category": "refeicoes"
+  },
+  {
+    "id": 43,
+    "url": "https://via.placeholder.com/300/FF9977",
+    "description": "Prato de sushi colorido",
+    "category": "refeicoes"
+  },
+  {
+    "id": 44,
+    "url": "https://via.placeholder.com/300/FF9966",
+    "description": "Sobremesa com sorvete",
+    "category": "refeicoes"
+  },
+  {
+    "id": 45,
+    "url": "https://via.placeholder.com/300/FF9955",
+    "description": "Mesa com pratos gourmet",
+    "category": "refeicoes"
+  }
+]

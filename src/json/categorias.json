@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Animais",
+    "category": "animais"
+  },
+  {
+    "id": 2,
+    "name": "Arquitetura",
+    "category": "arquitetura"
+  },
+  {
+    "id": 3,
+    "name": "Cidades",
+    "category": "cidades"
+  },
+  {
+    "id": 4,
+    "name": "Decorações",
+    "category": "decoracoes"
+  },
+  {
+    "id": 5,
+    "name": "Esportes",
+    "category": "esportes"
+  },
+  {
+    "id": 6,
+    "name": "Natureza",
+    "category": "natureza"
+  },
+  {
+    "id": 7,
+    "name": "Paisagem",
+    "category": "paisagem"
+  },
+  {
+    "id": 8,
+    "name": "Pessoas",
+    "category": "pessoas"
+  },
+  {
+    "id": 9,
+    "name": "Refeições",
+    "category": "refeicoes"
+  }
+]

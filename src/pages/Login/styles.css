@@ -1,58 +1,78 @@
-
 .container {
     width: 100%;
-    height: 350px;
+    max-width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin-bottom: 150px;
+    align-items: center;
+    text-align: center;
+    height: 480px;
 }
 
 .container h1 {
-    color: #fff;
+    font-size: 2rem;
+    color: #ffffff;
+    border-bottom: 3px solid #21e483;
     margin-bottom: 30px;
+    padding-bottom: 5px;
 }
 
-
 .container label {
-    color: #fff;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-right: 300px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    align-self: flex-start;
 }
 
 .container input {
-    width: 400px;
-    height: 30px;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #21e483;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.container input:focus {
+    outline: none;
+    border-color: #1eb973;
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .container button {
-    margin-top: 30px;
-    width: 200px;
-    height: 30px;
-
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    margin-top: 20px;
     border: none;
     border-radius: 5px;
-    box-shadow: 1px 1px 7px white;
-    transition: 0.2s;
-    background-color: #c0bebe;
+    background: #21e483;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px;
 }
 
 .container button:hover {
-    height: 35px;
-    width: 225px;
-    box-shadow: 1px 1px 12px white;
-    background-color: #fff;
-    font-weight: 800;
-
-    
+    background: #1eb973;
+    transform: translateY(-3px);
 }
 
 .container p {
-    margin-top: 30px;
+    color: #ffffff;
 }
 
 .active {
-    color: #11bfeb
+    color: #21e483;
+    font-weight: bold;
+    text-decoration: underline;
 }

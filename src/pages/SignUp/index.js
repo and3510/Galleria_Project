@@ -3,7 +3,7 @@ import { useState } from "react";
 import { db, auth } from '../../firebaseConnection'
 import { doc, setDoc, collection, addDoc, getDocs } from 'firebase/firestore'
 import "./styles.css"
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import {
     createUserWithEmailAndPassword,
@@ -130,16 +130,8 @@ return (
 
         <button onClick={resgister}>Sign Up</button>
 
-        {/* <ul>
-            {posts.map((post) => {
-                return (
-                    <li key={post.id}>
-                        <span>Nome: {post.nome}</span>
-                        <span>Senha: {post.senha}</span>
-                    </li>
-                )
-            })}
-        </ul> */}
+        <p>Já tem uma conta? <Link to="/" className="active">Faça login aqui</Link>.</p>
+        
 
     </div>
 )

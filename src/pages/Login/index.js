@@ -1,111 +1,83 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
-import { db, auth } from '../../firebaseConnection'
-import { doc, setDoc, collection, addDoc, getDocs } from 'firebase/firestore'
-import "./styles.css"
+import { auth } from '../../firebaseConnection';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import {
     signInWithEmailAndPassword,
-    signOut,
     onAuthStateChanged
-} from 'firebase/auth'
+} from 'firebase/auth';
+import "./styles.css";
 
 export default function Login() {
-    const [email, setEmail] = useState('')
-    const [senha, setSenha] = useState('')
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
     const [user, setUser] = useState(false);
-    const [userDetail, setUserDetail] = useState({})
+    const [userDetail, setUserDetail] = useState({});
     const navigate = useNavigate();
 
     async function login() {
-
         await signInWithEmailAndPassword(auth, email, senha)
-        .then((value) => {
-            console.log("login deu certo")
-            console.log(value.user)
+            .then((value) => {
+                console.log("Login bem-sucedido:", value.user);
 
-            setUserDetail({
-                uid: value.user.uid,
-                email: value.user.email,
+                setUserDetail({
+                    uid: value.user.uid,
+                    email: value.user.email,
+                });
+                setUser(true);
+                setEmail('');
+                setSenha('');
+                navigate('/home');
+                toast.success("Login realizado com sucesso!", { theme: "dark" });
             })
-            setUser(true);
-            setEmail('')
-            setSenha('')
-            navigate('/home');
-            toast.success("Login feito", {
-                theme: "dark"
-            })
-        })
-        .catch(() => {
-            console.log("login deu errado")
-            toast.warn("Login negado", {
-                theme: "dark"
-            })
-        })
+            .catch(() => {
+                console.error("Erro no login");
+                toast.warn("Falha ao realizar login. Verifique suas credenciais.", { theme: "dark" });
+            });
     }
 
     useEffect(() => {
-        async function checkLogin() {
-            onAuthStateChanged(auth, (user) => {
-                if (user) {
-                    console.log(user)
-                    setUser(true)
-                    setUserDetail({
-                        uid: user.uid,
-                        email: user.email
-                    })
-                    navigate('/home');
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                console.log("Usuário autenticado:", user);
+                setUser(true);
+                setUserDetail({
+                    uid: user.uid,
+                    email: user.email,
+                });
+                navigate('/home');
+            } else {
+                setUser(false);
+                setUserDetail({});
+            }
+        });
+    }, [navigate]);
 
-                }
-                else {
-                    setUser(false)
-                    setUserDetail({})
-                }
-            })
-        }
-
-        checkLogin();
-    }, [])
-
-    return(
+    return (
         <div className="container">
-        <h1> Login </h1>
+            <h1>Login</h1>
 
-        {/* {user && (
-            <div> 
-                <strong>Seja bem-vindo </strong> <br/>
-                <span> ID: {userDetail.uid} - Email: {userDetail.email}</span>
-                <br/> <br/>
-            </div>
-        )} */}
+            <label>Email:</label>
+            <input
+                type="email"
+                placeholder="Digite seu email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+            />
 
-        <label>Email:</label>
-        <input
-            type="text" 
-            placeholder="Digite email" 
-            value={email}
-            onChange={ (e) => setEmail(e.target.value)}
-        />
+            <label>Senha:</label>
+            <input
+                type="password"
+                placeholder="Digite sua senha"
+                value={senha}
+                onChange={(e) => setSenha(e.target.value)}
+            />
 
-        <label>Senha:</label>
-        <input 
-            type="password" 
-            placeholder="Digite Senha" 
-            value={senha}
-            onChange={ (e) => setSenha(e.target.value)}
-        />
-
-        
-
-        <button onClick={login}>Login</button>
-
-        
-        <p>Se não tiver uma conta. Cadastra-se aqui  <Link to="/signup" className="active">Sign up</Link> </p>
-        
+            <button onClick={login}>Login</button>
 
 
-    </div>
-    )
+            <p>Não tem uma conta? <Link to="/signup" className="active">Cadastre-se aqui</Link>.</p>
+        </div>
+    );
 }
