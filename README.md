@@ -1,4 +1,4 @@
-<h1 align="center">Galleria: Plataforma de Fotos</h1>
+I'm<h1 align="center">Galleria: Plataforma de Fotos</h1>
 
 <div align="center" >
 
@@ -27,13 +27,13 @@
 
 ## Requisitos
 
-- [ ] Pagina Principal dos principais fotos do site
+- [x] Pagina Principal dos principais fotos do site
 - [ ] Pagina sobre o fotografo
 - [ ] Pagina de contato por mensagem de email
-- [ ] Pagina de serviços oferecidos pelo fotografo
-- [ ] Sistema de cadastro e login com a autenticação do Auth do firebase
+- [x] Pagina de serviços oferecidos pelo fotografo
+- [x] Sistema de cadastro e login com a autenticação do Auth do firebase
 - [ ] Pagina de cada tipo de foto selecionada.
-- [ ] Uso de notificaçoes de açoes no site.
+- [x] Uso de notificaçoes de açoes no site.
 
 ## Ferramentas
 
