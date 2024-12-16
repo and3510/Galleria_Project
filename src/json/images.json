@@ -1,272 +1,373 @@
 [
   {
     "id": 1,
-    "url": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/09/Sarosh-Lodhi-Wait-Which-Zebra-Is-In-Front.webp?w=880",
+    "url": "https://braziljournal.com/wp-content/uploads/2023/11/elefante.jpeg",
     "description": "Elefante na savana",
-    "category": "animais"
+    "category": "animais",
+    "location": "savana"
   },
   {
     "id": 2,
-    "url": "https://via.placeholder.com/300/FFCC11",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNOV7zluZMJ7sZOsK42IbdfSp8Cc2oEUZW_Q&s",
     "description": "Leão descansando",
-    "category": "animais"
+    "category": "animais",
+    "location": "savana"
   },
   {
     "id": 3,
-    "url": "https://via.placeholder.com/300/FFCC22",
+    "url": "https://s2-vidadebicho.glbimg.com/i7Swwgvt_o8s6JWenAIuLzqdMV8=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_fb623579cd474803aedbbbbae014af68/internal_photos/bs/2022/v/i/G0EkTuScAR5SDphz9HeQ/2022-04-05-5-passaros-perto-da-linha-do-equador-sao-mais-coloridos-aponta-estudo.jpeg",
     "description": "Ave tropical colorida",
-    "category": "animais"
+    "category": "animais",
+    "location": "floresta tropical"
   },
   {
     "id": 4,
-    "url": "https://via.placeholder.com/300/FFCC33",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-O7x6MecGuRNdWEPj1Z3niJM4KqTF-L1sPw&s",
     "description": "Cervo na floresta",
-    "category": "animais"
+    "category": "animais",
+    "location": "floresta"
   },
   {
     "id": 5,
-    "url": "https://via.placeholder.com/300/FFCC44",
+    "url": "https://i0.wp.com/www.oeco.org.br/wp-content/uploads/2016/10/Paru_-_Pomacanthus_paru-1024x683.jpg?resize=640%2C427",
     "description": "Peixe em coral",
-    "category": "animais"
+    "category": "animais",
+    "location": "recife de coral"
   },
   {
     "id": 6,
-    "url": "https://via.placeholder.com/300/0099FF",
+    "url": "data:image/jpeg;base64,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",
     "description": "Prédio moderno refletindo o céu",
-    "category": "arquitetura"
+    "category": "arquitetura",
+    "location": "cidade"
   },
   {
     "id": 7,
-    "url": "https://via.placeholder.com/300/0099EE",
+    "url": "https://img.freepik.com/fotos-premium/construcao-de-vidro-estrutura-exterior-arquitetura-futurista-construcao-em-forma-de-onda-contra-o-ceu_284753-1371.jpg",
     "description": "Estrutura de vidro futurista",
-    "category": "arquitetura"
+    "category": "arquitetura",
+    "location": "cidade"
   },
   {
     "id": 8,
-    "url": "https://via.placeholder.com/300/0099DD",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjSMHpnk42WcgNDv77Pwzs_rmKC2YUb9c70w&s",
     "description": "Ponte icônica em uma cidade",
-    "category": "arquitetura"
+    "category": "arquitetura",
+    "location": "cidade"
   },
   {
     "id": 9,
-    "url": "https://via.placeholder.com/300/0099CC",
+    "url": "https://inbec.com.br/storage/2019/08/df16bd6ba460712f34877e0aa325b081.jpeg",
     "description": "Antiga catedral histórica",
-    "category": "arquitetura"
+    "category": "arquitetura",
+    "location": "centro histórico"
   },
   {
     "id": 10,
-    "url": "https://via.placeholder.com/300/0099BB",
+    "url": "https://c.pxhere.com/photos/53/aa/buildings_city_city_lights_cityscape_high_rises_lights_night_night_lights-1001044.jpg!d",
     "description": "Arranha-céu iluminado à noite",
-    "category": "arquitetura"
+    "category": "arquitetura",
+    "location": "cidade grande"
   },
   {
     "id": 11,
-    "url": "https://via.placeholder.com/300/FF6600",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_bGmexWmHb_ip33892DI85uNPto6UjgBGQ&s",
     "description": "Rua movimentada em Nova York",
-    "category": "cidades"
+    "category": "cidades",
+    "location": "Nova York"
   },
   {
     "id": 12,
-    "url": "https://via.placeholder.com/300/FF6611",
+    "url": "https://imagens.usp.br/wp-content/uploads/2010/03/saopaulo007.jpg",
     "description": "Vista aérea de São Paulo",
-    "category": "cidades"
+    "category": "cidades",
+    "location": "São Paulo"
   },
   {
     "id": 13,
-    "url": "https://via.placeholder.com/300/FF6622",
+    "url": "https://www.simplesmenteparis.com/wp-content/uploads/2019/10/As-principais-pra%C3%A7as-de-Paris.png",
     "description": "Praça central em Paris",
-    "category": "cidades"
+    "category": "cidades",
+    "location": "Paris"
   },
   {
     "id": 14,
-    "url": "https://via.placeholder.com/300/FF6633",
+    "url": "https://img.freepik.com/fotos-premium/uma-foto-de-uma-encantadora-cidade-costeira-com-barcos-de-pesca-coloridos_933496-54665.jpg",
     "description": "Cidade costeira com barcos",
-    "category": "cidades"
+    "category": "cidades",
+    "location": "costa"
   },
   {
     "id": 15,
-    "url": "https://via.placeholder.com/300/FF6644",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcftauWmeu35MXN6yVwMs4NwHj6wlqOGFJOg&s",
     "description": "Mercado noturno na Ásia",
-    "category": "cidades"
+    "category": "cidades",
+    "location": "Ásia"
   },
   {
     "id": 16,
-    "url": "https://via.placeholder.com/300/66CC99",
+    "url": "https://cdn.shopify.com/s/files/1/0494/5277/7634/files/sofa_arpoador.jpg?v=1644931761",
     "description": "Sala com móveis escandinavos",
-    "category": "decoracoes"
+    "category": "decoracoes",
+    "location": "interior"
   },
   {
     "id": 17,
-    "url": "https://via.placeholder.com/300/66CC88",
+    "url": "https://blog.archtrends.com/wp-content/uploads/2020/01/30151931/cozinha-ru%CC%81stica-portobello.jpg",
     "description": "Cozinha com estilo rústico",
-    "category": "decoracoes"
+    "category": "decoracoes",
+    "location": "interior"
   },
   {
     "id": 18,
-    "url": "https://via.placeholder.com/300/66CC77",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDs5s9KmsGIfJ4ovn32e00dN0Q7NL8K0FCdw&s",
     "description": "Escritório moderno e iluminado",
-    "category": "decoracoes"
+    "category": "decoracoes",
+    "location": "interior"
   },
   {
     "id": 19,
-    "url": "https://via.placeholder.com/300/66CC66",
+    "url": "https://i.pinimg.com/736x/b8/b8/aa/b8b8aaff2aa041d4910500c589d979d4.jpg",
     "description": "Quarto com tons pastéis",
-    "category": "decoracoes"
+    "category": "decoracoes",
+    "location": "interior"
   },
   {
     "id": 20,
-    "url": "https://via.placeholder.com/300/66CC55",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIoQZEq6az9M_kURzsGBapJeALl7MfL9iUVg&s",
     "description": "Varanda decorada com plantas",
-    "category": "decoracoes"
+    "category": "decoracoes",
+    "location": "varanda"
   },
   {
     "id": 21,
-    "url": "https://via.placeholder.com/300/CC3333",
+    "url": "https://placar.com.br/wp-content/uploads/2021/09/james-harden-basquete-2019-405.jpg.jpg",
     "description": "Jogador de basquete arremessando",
-    "category": "esportes"
+    "category": "esportes",
+    "location": "quadra"
   },
   {
     "id": 22,
-    "url": "https://via.placeholder.com/300/CC3344",
+    "url": "https://st.depositphotos.com/1010710/3380/i/450/depositphotos_33805687-stock-photo-runner-crossing-finish-line.jpg",
     "description": "Corredor cruzando a linha de chegada",
-    "category": "esportes"
+    "category": "esportes",
+    "location": "pista"
   },
   {
     "id": 23,
-    "url": "https://via.placeholder.com/300/CC3355",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGasMS-_edgCwUdID8pcPBH-HkUqkG0RC9EA&s",
     "description": "Surfista pegando uma onda",
-    "category": "esportes"
+    "category": "esportes",
+    "location": "praia"
   },
   {
     "id": 24,
-    "url": "https://via.placeholder.com/300/CC3366",
+    "url": "https://ocontestado.com/wp-content/uploads/2022/12/Gol-de-voleio-de-Richarlison-e-eleito-o-mais-bonito.jpg",
     "description": "Jogador de futebol fazendo gol",
-    "category": "esportes"
+    "category": "esportes",
+    "location": "campo"
   },
   {
     "id": 25,
-    "url": "https://via.placeholder.com/300/CC3377",
+    "url": "https://vinhedoscuiaba.com.br/blog/wp-content/uploads/2023/02/1homem-da-colheita-andando-de-bicicleta-ao-por-do-sol.jpg",
     "description": "Ciclistas em uma trilha",
-    "category": "esportes"
+    "category": "esportes",
+    "location": "trilha"
   },
   {
     "id": 26,
-    "url": "https://via.placeholder.com/300/33CC66",
+    "url": "https://img.freepik.com/fotos-gratis/cachoeira-cercada-por-vegetacao-e-pedras-sob-o-sol-em-uma-floresta_181624-17417.jpg",
     "description": "Cachoeira cercada por vegetação",
-    "category": "natureza"
+    "category": "natureza",
+    "location": "floresta"
   },
   {
     "id": 27,
-    "url": "https://via.placeholder.com/300/33CC77",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7V0Kqof9mqXj84dvSDZNJ1-lZRskO4acYyg&s",
     "description": "Lago cristalino ao pôr do sol",
-    "category": "natureza"
+    "category": "natureza",
+    "location": "lagoa"
   },
   {
     "id": 28,
-    "url": "https://via.placeholder.com/300/33CC88",
+    "url": "https://elements-resized.envatousercontent.com/elements-video-cover-images/60b33389-32ee-4438-b82e-9fa8c5004560/video_preview/video_preview_0000.jpg?w=500&cf_fit=cover&q=85&format=auto&s=1ecdae61a8adede042a8ef70e6b59939f59e6b95188ee00143ecadad83d904de",
     "description": "Floresta densa e verdejante",
-    "category": "natureza"
+    "category": "natureza",
+    "location": "floresta"
   },
   {
     "id": 29,
-    "url": "https://via.placeholder.com/300/33CC99",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Rpl_49EBrrvKQYRSdeyaEI7x1zoim0uG9g&s",
     "description": "Montanhas cobertas de neve",
-    "category": "natureza"
+    "category": "natureza",
+    "location": "montanhas"
   },
   {
     "id": 30,
-    "url": "https://via.placeholder.com/300/33CCAA",
+    "url": "https://www.qualviagem.com.br/wp-content/uploads/2016/12/iStock-492013716-e1481635519392.jpg",
     "description": "Praia deserta com águas claras",
-    "category": "natureza"
+    "category": "natureza",
+    "location": "praia"
   },
   {
     "id": 31,
-    "url": "https://via.placeholder.com/300/9933FF",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqcbHAIVOcd1WVfaBwO6-Bwg9o2gPUoRg8yA&s",
     "description": "Trilhos em meio a árvores",
-    "category": "paisagem"
+    "category": "paisagem",
+    "location": "trilha"
   },
   {
     "id": 32,
-    "url": "https://via.placeholder.com/300/9933EE",
+    "url": "https://d53a0c8c.delivery.rocketcdn.me/images/2014/campos-de-flores/campos-de-flores-06.jpg",
     "description": "Campo de flores ao entardecer",
-    "category": "paisagem"
+    "category": "paisagem",
+    "location": "campo"
   },
   {
     "id": 33,
-    "url": "https://via.placeholder.com/300/9933DD",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHcRre7pnPBAdmrzlRvWQzeS2QlzyP6SB_yg&s",
     "description": "Caminho em uma floresta nevoada",
-    "category": "paisagem"
+    "category": "paisagem",
+    "location": "floresta"
   },
   {
     "id": 34,
-    "url": "https://via.placeholder.com/300/9933CC",
-    "description": "Lago rodeado por montanhas",
-    "category": "paisagem"
+    "url": "https://thumbs.dreamstime.com/b/sol-dourado-sobre-colinas-tranquilas-com-flores-floridas-beleza-das-naturezas-ao-amanhecer-fotografia-de-paisagem-c%C3%AAnica-um-306975378.jpg",
+    "description": "Colinas douradas sob o sol",
+    "category": "paisagem",
+    "location": "colinas"
   },
   {
     "id": 35,
-    "url": "https://via.placeholder.com/300/9933BB",
-    "description": "Pôr do sol em um deserto",
-    "category": "paisagem"
+    "url": "https://img.freepik.com/fotos-premium/um-por-do-sol-e-visto-sobre-uma-montanha-e-o-sol-esta-se-pondo_665681-251.jpg",
+    "description": "Pôr do sol visto de uma montanha",
+    "category": "paisagem",
+    "location": "montanha"
   },
   {
     "id": 36,
-    "url": "https://via.placeholder.com/300/996633",
-    "description": "Retrato de uma mulher sorrindo",
-    "category": "pessoas"
+    "url": "https://img.freepik.com/fotos-premium/um-vale-verde-com-um-rio-sinuoso-e-um-cenario-de-montanhas-cobertas-de-neve-gerado-por-ai_943405-4731.jpg",
+    "description": "Rio sinuoso em um vale verde",
+    "category": "paisagem",
+    "location": "vale"
   },
   {
     "id": 37,
-    "url": "https://via.placeholder.com/300/996644",
-    "description": "Crianças brincando em um parque",
-    "category": "pessoas"
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoyhYymu_lwRxZXSArnYRJNYI6MrbqJWg1g&s",
+    "description": "Café aconchegante com decoração vintage",
+    "category": "decoracoes",
+    "location": "café"
   },
   {
     "id": 38,
-    "url": "https://via.placeholder.com/300/996655",
-    "description": "Homem trabalhando em um laptop",
-    "category": "pessoas"
+    "url": "https://finger.ind.br/wp-content/uploads/2024/02/fev24-7-dicas-para-montar-a-cozinha-minimalista-que-voce-sempre-quis-1024x683.jpg",
+    "description": "Cozinha minimalista branca",
+    "category": "decoracoes",
+    "location": "interior"
   },
   {
     "id": 39,
-    "url": "https://via.placeholder.com/300/996666",
-    "description": "Grupo de amigos em uma festa",
-    "category": "pessoas"
+    "url": "https://f.i.uol.com.br/fotografia/2017/10/20/150852928359ea5483c4a39_1508529283_3x2_md.jpg",
+    "description": "Área de trabalho com iluminação natural",
+    "category": "decoracoes",
+    "location": "escritório"
   },
   {
     "id": 40,
-    "url": "https://via.placeholder.com/300/996677",
-    "description": "Idoso lendo um livro",
-    "category": "pessoas"
+    "url": "https://media-cdn.tripadvisor.com/media/photo-s/1e/26/75/d7/piscina-com-borda-infinita.jpg",
+    "description": "Piscina com borda infinita",
+    "category": "arquitetura",
+    "location": "resort"
   },
   {
     "id": 41,
-    "url": "https://via.placeholder.com/300/FF9999",
-    "description": "Café da manhã com frutas",
-    "category": "refeicoes"
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7COTUbatqccyNUSC_WJtOWCkiYwo0pOG_w&s",
+    "description": "Aurora boreal em um céu estrelado",
+    "category": "natureza",
+    "location": "ártica"
   },
   {
     "id": 42,
-    "url": "https://via.placeholder.com/300/FF9988",
-    "description": "Pizza recém-assada",
-    "category": "refeicoes"
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7Rk2OruCNImPkgLaeLJlff39-2zIXIDVTA&s",
+    "description": "Deserto com dunas douradas",
+    "category": "natureza",
+    "location": "deserto"
   },
-  {
-    "id": 43,
-    "url": "https://via.placeholder.com/300/FF9977",
-    "description": "Prato de sushi colorido",
-    "category": "refeicoes"
-  },
-  {
-    "id": 44,
-    "url": "https://via.placeholder.com/300/FF9966",
-    "description": "Sobremesa com sorvete",
-    "category": "refeicoes"
-  },
-  {
-    "id": 45,
-    "url": "https://via.placeholder.com/300/FF9955",
-    "description": "Mesa com pratos gourmet",
-    "category": "refeicoes"
-  }
+{
+  "id": 43,
+  "url": "https://img.freepik.com/fotos-premium/um-por-do-sol-de-tirar-o-folego-sobre-uma-geleira-com-tons-de-azul-e-roxo_835580-47.jpg",
+  "description": "Geleira azul sob o sol",
+  "category": "natureza",
+  "location": "glaciar"
+},
+{
+  "id": 44,
+  "url": "https://img.freepik.com/fotos-premium/mulher-de-oculos-sorrindo-ao-ar-livre-no-estilo-fashwave_921860-67187.jpg",
+  "description": "Mulher de óculos sorrindo ao ar livre",
+  "category": "pessoas",
+  "location": "parque"
+},
+{
+  "id": 45,
+  "url": "https://c.pxhere.com/photos/36/49/man_walking_trip_forest_walk_park_adventure_weekend-648598.jpg!d",
+  "description": "Homem jovem caminhando na floresta",
+  "category": "pessoas",
+  "location": "floresta"
+},
+{
+  "id": 46,
+  "url": "https://thumbs.dreamstime.com/b/crian%C3%A7a-com-bal%C3%B5es-13307880.jpg",
+  "description": "Criança segurando um balão colorido",
+  "category": "pessoas",
+  "location": "praça"
+},
+{
+  "id": 47,
+  "url": "https://static.vecteezy.com/ti/fotos-gratis/t2/50539718-idosos-britanico-homem-sorridente-dentro-uma-vibrante-jardim-perfeito-para-senior-estilo-de-vida-ar-livre-e-tema-da-naturezas-foto.jpg",
+  "description": "Idoso sorrindo com jardim ao fundo",
+  "category": "pessoas",
+  "location": "jardim"
+},
+{
+  "id": 48,
+  "url": "https://img.freepik.com/fotos-premium/duas-amigas-tirando-selfies-enquanto-desfrutavam-de-um-passeio-pela-cidade-juntas-conceito-de-amizade_513228-93.jpg",
+  "description": "Amigas tirando foto juntas na cidade",
+  "category": "pessoas",
+  "location": "cidade"
+},
+{
+  "id": 49,
+  "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/35c4e4f131833f8a69fcbd600e39ddf9.jpg",
+  "description": "Macarrão com tomate e manjericão",
+  "category": "refeicoes",
+  "location": "cozinha italiana"
+},
+{
+  "id": 50,
+  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyRGhHkm8kUCGXtlylTYlxglXm7rkNK9HyIw&s",
+  "description": "Sobremesa de morangos com creme",
+  "category": "refeicoes",
+  "location": "restaurante"
+},
+{
+  "id": 51,
+  "url": "https://www.estadao.com.br/resizer/v2/FP4PEIKKPVFV3JPHMSJCTVM2GI.jpg?quality=80&auth=a672a118d565c4af3e25041e87075c33835512bb7dc6adcea27ed81a0c5003bb&width=1200&height=900&smart=true",
+  "description": "Taco recheado com carne e vegetais",
+  "category": "refeicoes",
+  "location": "lanchonete mexicana"
+},
+{
+  "id": 52,
+  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrVMKCqS6hCBszB1OxHVtZu4m65of6M_Fktw&s",
+  "description": "Café da manhã com torradas, ovos e suco de laranja",
+  "category": "refeicoes",
+  "location": "café da manhã"
+},
+{
+  "id": 53,
+  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTTB9axLtkGrGkRw0CxkR-zBeDjLILsgsi9A&s",
+  "description": "Bolo de chocolate decorado com frutas",
+  "category": "refeicoes",
+  "location": "doceria"
+}
 ]

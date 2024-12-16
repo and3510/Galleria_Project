@@ -41,25 +41,31 @@ export default function Sobre() {
       }, [])
       
 return (
-    <div class="container">
-        <div class="about">
+    <div className="services-container">
+    <h1>Sobre mim</h1>
+    <div className="services-blocks">
+        <div className="service-block">
             <h2>Sobre o Fotógrafo</h2>
-            <p>João Silva é um fotógrafo renomado, especializado em fotografia de retratos e paisagens. Com mais de 10 anos de experiência, sua paixão é capturar momentos que contam histórias.</p>
+            <p >João Silva é um fotógrafo renomado, especializado em fotografia de retratos e paisagens. Com mais de 10 anos de experiência, sua paixão é capturar momentos que contam histórias.</p>
         </div>
-        <div class="profile-img">
+        <div className="service-block">
             <img src={minhaImagem} alt="" />
         </div>
-        <div class="qualities">
+        <div className="service-block">
             <h2>Qualidades</h2>
-                <ul>
-                    <li>Criativo</li>
-                    <li>Detalhista</li>
-                    <li>Experiente em diferentes estilos de fotografia</li>
-                    <li>Profissional e pontual</li>
-                    <li>Tecnologia de ponta</li>
-                </ul>
-            </div>
+            <ul class="qualities-list">
+                <li class="quality-item">Profissionalismo</li>
+                <li class="quality-item">Comprometimento</li>
+                <li class="quality-item">Pontualidade</li>
+                <li class="quality-item">Criatividade</li>
+            </ul>
+
+
+        </div>
     </div>
+    </div>
+
+
 )
 
 

@@ -17,17 +17,17 @@ export default function Fotos() {
     const filteredImages = images.filter((image) => image.category === category.category);
   
 return (
-    <div>
+    <div className="info_fotos">
     <h1>{category.name}</h1>
-    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
+    <div className="single_fotos" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
       {filteredImages.map((image) => (
-        <div key={image.id} style={{ textAlign: 'center' }}>
+        <div className="foto" key={image.id} style={{ textAlign: 'center' }}>
           <img
             src={image.url}
             alt={image.description}
             style={{ width: '150px', height: '150px', borderRadius: '8px' }}
           />
-          <p>{image.description}</p>
+          <p>{image.description} - Localização: {image.location}</p>
         </div>
       ))}
     </div>
