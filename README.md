@@ -2,7 +2,7 @@ I'm<h1 align="center">Galleria: Plataforma de Fotos</h1>
 
 <div align="center" >
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -28,11 +28,11 @@ I'm<h1 align="center">Galleria: Plataforma de Fotos</h1>
 ## Requisitos
 
 - [x] Pagina Principal dos principais fotos do site
-- [ ] Pagina sobre o fotografo
-- [ ] Pagina de contato por mensagem de email
+- [x] Pagina sobre o fotografo
+- [x] Pagina de contato por mensagem de email
 - [x] Pagina de serviços oferecidos pelo fotografo
 - [x] Sistema de cadastro e login com a autenticação do Auth do firebase
-- [ ] Pagina de cada tipo de foto selecionada.
+- [x] Pagina de cada tipo de foto selecionada.
 - [x] Uso de notificaçoes de açoes no site.
 
 ## Ferramentas
